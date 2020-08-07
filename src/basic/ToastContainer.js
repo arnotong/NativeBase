@@ -147,7 +147,7 @@ class ToastContainer extends Component {
       useNativeDriver: false
     }).start();
   }
-  closeModal = (reason) => {
+  closeModal = reason => {
     this.setState({
       modalVisible: false
     });
@@ -155,7 +155,7 @@ class ToastContainer extends Component {
     if (onClose && typeof onClose === 'function') {
       onClose(reason);
     }
-  }
+  };
   closeToast(reason) {
     clearTimeout(this.closeTimeout);
     Animated.timing(this.state.fadeAnim, {

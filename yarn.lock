@@ -934,6 +934,11 @@
     shell-quote "1.6.1"
     ws "^1.1.0"
 
+"@react-native-community/picker@^1.6.5":
+  version "1.6.5"
+  resolved "https://registry.npm.taobao.org/@react-native-community/picker/download/@react-native-community/picker-1.6.5.tgz#9489fdb6d0b4b5877491101e0c3185ea9511d1aa"
+  integrity sha1-lIn9ttC0tYd0kRAeDDGF6pUR0ao=
+
 "@types/babel__core@^7.1.0":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.2.tgz#608c74f55928033fce18b99b213c16be4b3d114f"
@@ -2704,9 +2709,6 @@ define-property@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/define-property/-/define-property-2.0.2.tgz#d459689e8d654ba77e02a817f8710d702cb16e9d"
   integrity sha512-jwK2UV4cnPpbcG7+VRARKTZPUWowwXA8bzH5NP6ud0oeAxyYPuGZUAC7hMugpCdz4BeSZl2Dl9k66CHJ/46ZYQ==
-  dependencies:
-    is-descriptor "^1.0.2"
-    isobject "^3.0.1"
 
 delayed-stream@~1.0.0:
   version "1.0.0"
